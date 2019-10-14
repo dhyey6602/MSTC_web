@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MSTC</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9b91cd88c3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 sticky-top">
+        <a class="navbar-brand mx-5" href="index.html">
+            <img src="images/logo.jpeg" width="175" height="55" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dreamspark.html">DreamSpark</a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutUs.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contactUs.html" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Main_Body-->
+    <div class="my-5"></div>
+    <div class="row my-5">
+        <div class="card ml-auto col-md-4 col-sm-12 border-dark">
+            <div class="card-body">
+                <h5 class="card-title">Past Events</h5>
+                <h6 class="card-text text-muted">Our Glorious History of Events</h6>
+                <button type="button" class="btn btn-block border-primary mt-3" data-toggle="modal" data-target="#devfest">
+                    DevFest
+                  </button>
+                  <button type="button" class="btn btn-block border-danger mt-3" data-toggle="modal" data-target="#angular">
+                    Angular
+                  </button>
+                  <button type="button" class="btn btn-block border-success mt-3" data-toggle="modal" data-target="#python">
+                    Python
+                  </button>
+                  <button type="button" class="btn btn-block border-info mt-3" data-toggle="modal" data-target="#winterofcode">
+                    Winter Of Code
+                  </button>
+            </div>
+        </div>
+        <div class="card mr-auto col-md-4 col-sm-12 border-dark">
+            <div class="card-body">
+                <h5 class="card-title">Upcoming Events</h5>
+                <h6 class="card-text text-muted">Want to know what is coming next?</h6>
+                <button type="button" class="btn btn-block border-primary mt-3" data-toggle="modal" data-target="#Hacktoberfest">
+                    Hacktoberfest
+                  </button></div>
+        </div>
+    </div>
+     <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="devfest" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="card mx-auto mt-5 p-5" style="width: 90%;">
+            <img class="card-img-top" src="images/imagine_logo.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">DevFest</h5>
+              <p class="card-text">A technical talk among developers and best in class professionals.</p>
+              <a href="#" class="btn btn-primary">See more Images</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="angular" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="card mx-auto mt-5 p-5" style="width: 90%;">
+            <img class="card-img-top" src="images/logo.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">angular</h5>
+              <p class="card-text">A technical talk among developers and best in class professionals.</p>
+              <a href="#" class="btn btn-primary">See more Images</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="python" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="card mx-auto mt-5 p-5" style="width: 90%;">
+            <img class="card-img-top" src="images/logo_dark.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">A technical talk among developers and best in class professionals.</p>
+              <a href="#" class="btn btn-primary">See more Images</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="winterofcode" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="card mx-auto mt-5 p-5" style="width: 90%;">
+            <img class="card-img-top" src="images/profile_demo.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">winter of code</h5>
+              <p class="card-text">A technical talk among developers and best in class professionals.</p>
+              <a href="#" class="btn btn-primary">See more Images</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Hacktoberfest" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="card mx-auto mt-5 p-5" style="width: 90%;">
+            <img class="card-img-top" src="https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hacktoberfest</h5>
+              <p class="card-text">A technical talk among developers and best in class professionals.</p>
+              <a href="#" class="btn btn-primary">See more Images</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+    <div class="footer bg-dark text-light">
+        <div class="container">
+            <div class="row text-center pt-3">
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                            <p><b>Utilities</b>
+                               </p>
+                               <i class="far fa-address-card"></i><a href="#"> Contact Us</a>
+                      <p class="my-2">      <i class="fas fa-user"></i><a href="#"> Login</a> </p>
+                        </div>
+                <div class="col-md-6 col-lg-4 col-sm-12">
+                    <p><b>Connect With Us</b>
+                       </p>
+                    <i class="fab fa-twitter"></i><a href="#"> twitter_handle</a>
+              <p class="my-2">      <i class="fab fa-instagram"></i><a href="#"> Instagram_id</a> </p>
+                    <i class="fab fa-facebook-f"></i><a href="#"> Facebook</a> 
+                </div>
+                <div class="col-sm-12 col-lg-4 mx-auto">
+                        <p><b>Address</b> </p>
+                    <div class=" mt-3 text-center">
+                           <p>                    DAIICT <br>
+                    Near Reliance Chowkdi, DAIICT Road <br>
+                    Gandhinagar, Gujarat 382007</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mb-0 bg-dark text-light py-1 pt-3 text-center">
+            <p>&copy; All rights reserved by MSTC DAIICT-2019</p>
+        </div>
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

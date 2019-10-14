@@ -8,48 +8,13 @@
     <title>MSTC-Team</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/9b91cd88c3.js" crossorigin="anonymous"></script>
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-        }
-        .nav-link {
-            text-decoration: none;
-            position: relative;
-        }
-        a{
-            color: white;
-        }
-        a:hover{
-            color: white;
-            text-decoration: none;
-            box-shadow: dodgerblue 0px 2px;
-        }
-        .nav-link::after {
-            position: absolute;
-            content: "";
-            height: .1em;
-            top: 100%;
-            background: currentColor;
-            z-index: -1;
-            left: 0;
-            right: 0;
-            transform: scaleX(0);
-            transition: transform .1s cubic-bezier(.95, .05, .795, .035);
-        }
-
-        .nav-link:hover::after {
-            transition-timing-function: cubic-bezier(.19, 1, .22, 0.1);
-            transform: scaleX(1);
-        }
-        
-    </style>
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 
 <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 sticky-top">
-        <a class="navbar-brand mx-5" href="#">
+        <a class="navbar-brand mx-5" href="index.html">
             <img src="images/logo.jpeg" width="175" height="55" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -60,24 +25,23 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="event.html">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">DreamSpark</a>
+                    <a class="nav-link" href="dreamspark.html">DreamSpark</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About Us</a>
+                    <a href="aboutUs.html" class="nav-link">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact Us</a>
+                    <a href="contactUs.html" class="nav-link">Contact Us</a>
                 </li>
             </ul>
         </div>
-    </nav>
-    <!--Main_Body-->
+    </nav>    <!--Main_Body-->
     <div class="row mt-5">
     <div class="card col-sm-12 col-md-5 col-lg-3 mb-5 mx-auto" >
             <img src="images/profile_demo.png" class="card-img-top" alt="...">
