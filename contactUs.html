@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MSTC-Team</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9b91cd88c3.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .nav-link {
+            text-decoration: none;
+            position: relative;
+        }
+        a{
+            color: white;
+        }
+        a:hover{
+            color: white;
+            text-decoration: none;
+            box-shadow: dodgerblue 0px 2px;
+        }
+        .nav-link::after {
+            position: absolute;
+            content: "";
+            height: .1em;
+            top: 100%;
+            background: currentColor;
+            z-index: -1;
+            left: 0;
+            right: 0;
+            transform: scaleX(0);
+            transition: transform .1s cubic-bezier(.95, .05, .795, .035);
+        }
+
+        .nav-link:hover::after {
+            transition-timing-function: cubic-bezier(.19, 1, .22, 0.1);
+            transform: scaleX(1);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 sticky-top">
+        <a class="navbar-brand mx-5" href="#">
+            <img src="images/logo.jpeg" width="175" height="55" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DreamSpark</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Main_Body-->
+    <div class="card m-5 p-5" style="width: 40%;">
+            <img src="images/logo.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Microsoft Student Technical Club</h5>
+              <p class="card-text">Dhirubhai Ambani Institute Of Information And Communication Technology
+                 <br>   Near Infocity,Gandhinagar,Gujarat-382002</p>
+               <p>  <i class="far fa-envelope"></i> <a href="mailto:microsoftclub@daiict.ac.in" class="text-primary"> microsoftclub@daiict.ac.in</a></p>
+            </div>
+          </div>
+    <!--footer-->
+    <div class="footer bg-dark text-light">
+        <div class="container">
+            <div class="row text-center pt-3">
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                            <p><b>Utilities</b>
+                               </p>
+                               <i class="far fa-address-card"></i><a href="#"> Contact Us</a>
+                      <p class="my-2">      <i class="fas fa-user"></i><a href="#"> Login</a> </p>
+                        </div>
+                <div class="col-md-6 col-lg-4 col-sm-12">
+                    <p><b>Connect With Us</b>
+                       </p>
+                    <i class="fab fa-twitter"></i><a href="#"> twitter_handle</a>
+              <p class="my-2">      <i class="fab fa-instagram"></i><a href="#"> Instagram_id</a> </p>
+                    <i class="fab fa-facebook-f"></i><a href="#"> Facebook</a> 
+                </div>
+                <div class="col-sm-12 col-lg-4 mx-auto">
+                        <p><b>Address</b> </p>
+                    <div class=" mt-3 text-center">
+                           <p>                    DAIICT <br>
+                    Near Reliance Chowkdi, DAIICT Road <br>
+                    Gandhinagar, Gujarat 382007</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mb-0 bg-dark text-light py-1 pt-3 text-center">
+            <p>&copy; All rights reserved by MSTC DAIICT-2019</p>
+        </div>
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
